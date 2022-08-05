@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito", sans-seriff;
+}
+
+.input{
+    text-align: center;
+}
+input[type="text"]{
+    height: 50px;
+    width:600px;
+    background: e7e7e7;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 10px
+}
+button[type="submit"]{
+    height: 50px;
+    width:100px;
+    background: green;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+}
+.display{
+    text-align: center;
+}
