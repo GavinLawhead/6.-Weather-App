@@ -8,9 +8,15 @@ function thisfunc() {
   )
     .then((response) => response.json())
     .then((location) => {
-      temp = location.main.temp;
+      averagetemp = location.main.temp;
+      hightemp = location.main.temp_max;
+      lowtemp = location.main.temp_min;
+      weatherdesc = location.weather.description;
       console.log(location);
-      document.querySelector(".temp").innerText = temp;
+      document.querySelector(".temp").innerText = averagetemp;
+      document.querySelector(".hightemp").innerText = hightemp;
+      document.querySelector(".lowtemp").innerText = lowtemp;
+      document.querySelector(".desc").innerText = weatherdesc;
     })
     .catch((error) => console.log("error"));
 }
