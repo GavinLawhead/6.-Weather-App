@@ -7,30 +7,35 @@
     <title>Webb App</title>
   </head>
   <body>
-    <div>
+    <div class="in">
+      <h1>Whats the weather in</h1>
       <input type="text" class="inputValue" placeholder="Enter a city" />
-      <button value="Submit" class="button" onclick="thisfunc()">submit</button>
+      <button value="Submit" class="button" onclick="thisfunc()">
+        <h3>submit</h3>
+      </button>
     </div>
 
-    <div class="display">
-      <h1 class="name"></h1>
-      <h1>
-        Weather:
-        <p class="desc"></p>
-      </h1>
-      <h1>
-        Average Temp:
-        <p class="temp"></p>
-      </h1>
+    <div class="out">
+      <div class="display">
+        <h1 class="name"></h1>
+        <h1>
+          Weather:
+          <p class="desc"></p>
+        </h1>
+        <h1>
+          Average Temp:
+          <p class="temp"></p>
+        </h1>
 
-      <h1>
-        High Temp:
-        <p class="hightemp"></p>
-      </h1>
-      <h1>
-        Low Temp:
-        <p class="lowtemp"></p>
-      </h1>
+        <h1>
+          High Temp:
+          <p class="hightemp"></p>
+        </h1>
+        <h1>
+          Low Temp:
+          <p class="lowtemp"></p>
+        </h1>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
