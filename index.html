@@ -4,37 +4,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Webb App</title>
   </head>
   <body>
     <div class="in">
-      <h1>Whats the weather in</h1>
-      <input type="text" class="inputValue" placeholder="Enter a city" />
-      <button value="Submit" class="button" onclick="thisfunc()">
-        <h3>submit</h3>
+      <h1>
+        <div class="inputval1"in> Whats the weather in</div>
+       <div class="inputval2">       <input
+          type="text"
+          class="inputValue"
+          placeholder="Enter a city"/>
+      <button value="Submit" class="button" onclick="thisfunc()"><h3>submit</h3></div>
+ 
+      </h1>
+
+    
       </button>
     </div>
 
     <div class="out">
       <div class="display">
-        <h1 class="name"></h1>
-        <h1>
+        <h1 class="name">
           Weather:
-          <p class="desc"></p>
+          <p class="info desc">N/A</p>
         </h1>
-        <h1>
+        <h1 class=" name" >
           Average Temp:
-          <p class="temp"></p>
+          <p class="info temp">N/A</p>
         </h1>
 
-        <h1>
+        <h1 class="name">
           High Temp:
-          <p class="hightemp"></p>
-        </h1>
-        <h1>
+          <p class="info hightemp">N/A</p>
+        </h1>   
+
+        <h1 class="name">
           Low Temp:
-          <p class="lowtemp"></p>
-        </h1>
+          <p class="info lowtemp">N/A</p>
+        </h1>  
+
       </div>
     </div>
     <script src="script.js"></script>
